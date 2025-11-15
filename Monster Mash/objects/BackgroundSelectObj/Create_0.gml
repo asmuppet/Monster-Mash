@@ -1,7 +1,7 @@
 //Calculates the heights and widths of all the text in order to draw rectangles around them
 //I don't like this method so far
 display_choice_one = "You come from a wealthy mercantile background"
-display_choice_two = "You come from a family of experience monster trainers"
+display_choice_two = "You come from a family of experienced monster trainers"
 display_choice_three = "You come from nothing"
 
 text_height1 = string_height(display_choice_one)

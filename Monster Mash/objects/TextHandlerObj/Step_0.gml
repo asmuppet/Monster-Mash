@@ -28,8 +28,15 @@ if global.game_state = GameState.background_select {
 	}
 }
 
+if global.game_state = GameState.tbc {
+	display_message = "Game to be further developed"
+}
+
 text_width = string_width(display_message)
 text_height = string_height(display_message)
 
 center_textx = room_width / 2 - text_width / 2
 center_texty = room_height / 2 - text_height / 2
+
+day_string = "Day: " + string(GlobalControllerObj.day)
+week_string = "Week: " + string(1 + GlobalControllerObj.week)

@@ -32,6 +32,8 @@
     {"$GMObjectProperty":"v2","%Name":"display_message","filters":[],"listItems":[],"multiselect":false,"name":"display_message","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"default text\"","varType":2,},
     {"$GMObjectProperty":"v2","%Name":"text_height","filters":[],"listItems":[],"multiselect":false,"name":"text_height","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"text_width","filters":[],"listItems":[],"multiselect":false,"name":"text_width","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"day_string","filters":[],"listItems":[],"multiselect":false,"name":"day_string","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"week_string","filters":[],"listItems":[],"multiselect":false,"name":"week_string","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

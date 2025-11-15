@@ -1,4 +1,4 @@
-if global.game_state = GameState.trainer_background && !background_checked{
+if PlayerControllerObj.background == "trainer" && !background_checked{
 	background_checked = true
 	str_mult += .1
 	spd_mult += .1

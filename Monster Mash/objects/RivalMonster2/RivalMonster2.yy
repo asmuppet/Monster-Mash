@@ -26,7 +26,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"mosnter_species","filters":[],"listItems":[],"multiselect":false,"name":"mosnter_species","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"default_rival2","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"monster_species","filters":[],"listItems":[],"multiselect":false,"name":"monster_species","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"default_rival2","varType":2,},
     {"$GMObjectProperty":"v2","%Name":"str_mult","filters":[],"listItems":[],"multiselect":false,"name":"str_mult","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"spd_mult","filters":[],"listItems":[],"multiselect":false,"name":"spd_mult","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"sta_mult","filters":[],"listItems":[],"multiselect":false,"name":"sta_mult","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},

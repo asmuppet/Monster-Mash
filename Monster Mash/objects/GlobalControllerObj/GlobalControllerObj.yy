@@ -26,8 +26,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"day","filters":[],"listItems":[],"multiselect":false,"name":"day","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"week","filters":[],"listItems":[],"multiselect":false,"name":"week","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"integer(day/7)","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"day","filters":[],"listItems":[],"multiselect":false,"name":"day","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"week","filters":[],"listItems":[],"multiselect":false,"name":"week","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"floor(day/7)","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

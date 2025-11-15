@@ -1,3 +1,5 @@
+monster_species = PlayerControllerObj.player_monster
+
 if monster_species == "Zombie" {
 	str_mult = 1.0
 	spd_mult = 0.5

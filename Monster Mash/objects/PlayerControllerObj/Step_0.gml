@@ -2,45 +2,49 @@
 //but that's what I've come up with for now
 
 if global.game_state = GameState.zombie_selected {
-	var player_monster = instance_create_layer(0, 0, "Instances", PlayerMonster)
-	player_monster.monster_species = "Zombie"
-	var rival_monster1 = instance_create_layer(0, 0, "Instances", RivalMonster1)
-	rival_monster1.monster_species = "Skeleton"
-	var rival_monster2 = instnace_create_layer(0, 0, "Instances", RivalMonster2)
-	rival_monster2.monster_species = "Slime"
+	player_monster = "Zombie"
+	rival_monster1 = "Skeleton"
+	rival_monster2 = "Slime"
+	instance_create_layer(0, 0, "Instances", PlayerMonster)
+	instance_create_layer(0, 0, "Instances", RivalMonster1)
+	instance_create_layer(0, 0, "Instances", RivalMonster2)
+
 	global.game_state = GameState.background_select
 }
 
 if global.game_state = GameState.skeleton_selected{
-	var player_monster = instance_create_layer(0, 0, "Instances", PlayerMonster)
-	player_monster.monster_species = "Skeleton"
-	var rival_monster1 = instance_create_layer(0, 0, "Instances", RivalMonster1)
-	rival_monster1.monster_species = "Zombie"
-	var rival_monster2 = instnace_create_layer(0, 0, "Instances", RivalMonster2)
-	rival_monster2.monster_species = "Slime"
+	player_monster = "Skeleton"
+	rival_monster1 = "Zombie"
+	rival_monster2 = "Slime"
+	instance_create_layer(0, 0, "Instances", PlayerMonster)
+	instance_create_layer(0, 0, "Instances", RivalMonster1)
+	instance_create_layer(0, 0, "Instances", RivalMonster2)
 	global.game_state = GameState.background_select
 }
 
 if global.game_state = GameState.slime_selected{
-	var player_monster = instance_create_layer(0, 0, "Instances", PlayerMonster)
-	player_monster.monster_species = "Slime"
-	var rival_monster1 = instance_create_layer(0, 0, "Instances", RivalMonster1)
-	rival_monster1.monster_species = "Zombie"
-	var rival_monster2 = instnace_create_layer(0, 0, "Instances", RivalMonster2)
-	rival_monster2.monster_species = "Skeleton"
+	player_monster = "Slime"
+	rival_monster1 = "Zombie"
+	rival_monster2 = "Skeleton"
+	instance_create_layer(0, 0, "Instances", PlayerMonster)
+	instance_create_layer(0, 0, "Instances", RivalMonster1)
+	instance_create_layer(0, 0, "Instances", RivalMonster2)
 	global.game_state = GameState.background_select
 }
 
 if global.game_state = GameState.wealthy_background{
 	player_gold += 300
+	background = "wealthy"
 	global.game_state = GameState.tbc
 }
 
 if global.game_state = GameState.trainer_background{
 	player_gold += 50
+	background = "trainer"
 	global.game_state = GameState.tbc	
 }
 
 if global.game_state = GameState.nothing_background{
+	background = "nothing"
 	global.game_state = GameState.tbc
 }
