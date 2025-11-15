@@ -11,8 +11,8 @@
   "name":"BackgroundSelectObj",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Controller Objects",
+    "path":"folders/Controller Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -11,7 +11,7 @@ enum GameState {
 	wealthy_background,
 	trainer_background,
 	nothing_background,
-	continue
+	tbc
 }
 
 global.game_state = GameState.game_start

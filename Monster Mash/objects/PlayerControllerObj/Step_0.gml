@@ -2,42 +2,45 @@
 //but that's what I've come up with for now
 
 if global.game_state = GameState.zombie_selected {
-	player_monster = "Zombie"
-	monster_str_mult = 1.0
-	monster_spd_mult = .5
-	monster_sta_mult = .5
+	var player_monster = instance_create_layer(0, 0, "Instances", PlayerMonster)
+	player_monster.monster_species = "Zombie"
+	var rival_monster1 = instance_create_layer(0, 0, "Instances", RivalMonster1)
+	rival_monster1.monster_species = "Skeleton"
+	var rival_monster2 = instnace_create_layer(0, 0, "Instances", RivalMonster2)
+	rival_monster2.monster_species = "Slime"
 	global.game_state = GameState.background_select
 }
 
 if global.game_state = GameState.skeleton_selected{
-	player_monster = "Skeleton"
-	monster_str_mult = .5
-	monster_spd_mult = 1.0
-	monster_sta_mult = .5
+	var player_monster = instance_create_layer(0, 0, "Instances", PlayerMonster)
+	player_monster.monster_species = "Skeleton"
+	var rival_monster1 = instance_create_layer(0, 0, "Instances", RivalMonster1)
+	rival_monster1.monster_species = "Zombie"
+	var rival_monster2 = instnace_create_layer(0, 0, "Instances", RivalMonster2)
+	rival_monster2.monster_species = "Slime"
 	global.game_state = GameState.background_select
 }
 
 if global.game_state = GameState.slime_selected{
-	player_monster = "Slime"
-	monster_str_mult = .5
-	monster_spd_mult = .5
-	monster_sta_mult = 1.0
+	var player_monster = instance_create_layer(0, 0, "Instances", PlayerMonster)
+	player_monster.monster_species = "Slime"
+	var rival_monster1 = instance_create_layer(0, 0, "Instances", RivalMonster1)
+	rival_monster1.monster_species = "Zombie"
+	var rival_monster2 = instnace_create_layer(0, 0, "Instances", RivalMonster2)
+	rival_monster2.monster_species = "Skeleton"
 	global.game_state = GameState.background_select
 }
 
 if global.game_state = GameState.wealthy_background{
 	player_gold += 300
-	global.game_state = GameState.continue
+	global.game_state = GameState.tbc
 }
 
 if global.game_state = GameState.trainer_background{
 	player_gold += 50
-	monster_spd_mult += .1
-	monster_sta_mult += .1
-	monster_str_mult += .1
-	global.game_state = GameState.continue	
+	global.game_state = GameState.tbc	
 }
 
 if global.game_state = GameState.nothing_background{
-	global.game_state = GameState.continue
+	global.game_state = GameState.tbc
 }
