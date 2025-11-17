@@ -35,6 +35,9 @@
     {"id":{"name":"TextHandlerObj","path":"objects/TextHandlerObj/TextHandlerObj.yy",},},
     {"id":{"name":"village_back","path":"objects/village_back/village_back.yy",},},
     {"id":{"name":"ZombieTextObj","path":"objects/ZombieTextObj/ZombieTextObj.yy",},},
+    {"id":{"name":"arena","path":"rooms/arena/arena.yy",},},
+    {"id":{"name":"minigame_1","path":"rooms/minigame_1/minigame_1.yy",},},
+    {"id":{"name":"minigame_2","path":"rooms/minigame_2/minigame_2.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Village","path":"rooms/Village/Village.yy",},},
     {"id":{"name":"skeleton","path":"sprites/skeleton/skeleton.yy",},},
@@ -53,6 +56,9 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Village","path":"rooms/Village/Village.yy",},},
+    {"roomId":{"name":"minigame_1","path":"rooms/minigame_1/minigame_1.yy",},},
+    {"roomId":{"name":"minigame_2","path":"rooms/minigame_2/minigame_2.yy",},},
+    {"roomId":{"name":"arena","path":"rooms/arena/arena.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
