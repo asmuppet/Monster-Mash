@@ -28,8 +28,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"player_name","filters":[],"listItems":[],"multiselect":false,"name":"player_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
-    {"$GMObjectProperty":"v2","%Name":"player_monster","filters":[],"listItems":[],"multiselect":false,"name":"player_monster","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"player_name","filters":[],"listItems":[],"multiselect":false,"name":"player_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"default_name","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"player_monster","filters":[],"listItems":[],"multiselect":false,"name":"player_monster","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"default_player","varType":2,},
     {"$GMObjectProperty":"v2","%Name":"player_gold","filters":[],"listItems":[],"multiselect":false,"name":"player_gold","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"inventory","filters":[],"listItems":[],"multiselect":false,"name":"inventory","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":6,},
     {"$GMObjectProperty":"v2","%Name":"rival_monster1","filters":[],"listItems":[],"multiselect":false,"name":"rival_monster1","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
