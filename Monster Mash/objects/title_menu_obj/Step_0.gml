@@ -20,7 +20,7 @@ if position < 0 {
 if enter_pressed {
 	switch(position) {
 		case 0:
-			room_goto_next()
+			room_goto(setup_rm)
 			break
 	
 		case 1:

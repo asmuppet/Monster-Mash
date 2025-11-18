@@ -1,4 +1,4 @@
-//I am beyong positive there must be a better way of doing a state check than this awful if checklist,
+//I am beyond positive there must be a better way of doing a state check than this awful if checklist,
 //but that's what I've come up with for now
 
 if global.game_state = GameState.zombie_selected {

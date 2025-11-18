@@ -1,3 +1,5 @@
+persistent = true
+
 //Huge enum containing many various gamestates. It is likely that I will eventually split it
 //into multiple enums, but for now this is it
 

@@ -10,8 +10,8 @@
   "name":"village_menu_obj",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menu",
-    "path":"folders/Menu.yy",
+    "name":"Menus",
+    "path":"folders/Menus.yy",
   },
   "parentObjectId":null,
   "persistent":false,
