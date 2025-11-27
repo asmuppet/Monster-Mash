@@ -22,7 +22,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.0.207",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"Monster Mash",
   "resources":[
@@ -40,6 +40,7 @@
     {"id":{"name":"RivalMonster1","path":"objects/RivalMonster1/RivalMonster1.yy",},},
     {"id":{"name":"RivalMonster2","path":"objects/RivalMonster2/RivalMonster2.yy",},},
     {"id":{"name":"setup_menu_obj","path":"objects/setup_menu_obj/setup_menu_obj.yy",},},
+    {"id":{"name":"shop_menu_obj","path":"objects/shop_menu_obj/shop_menu_obj.yy",},},
     {"id":{"name":"SkeletonTextObj","path":"objects/SkeletonTextObj/SkeletonTextObj.yy",},},
     {"id":{"name":"SlimeTextObj","path":"objects/SlimeTextObj/SlimeTextObj.yy",},},
     {"id":{"name":"spd_minigame_menu_obj","path":"objects/spd_minigame_menu_obj/spd_minigame_menu_obj.yy",},},
@@ -52,6 +53,7 @@
     {"id":{"name":"competition_rm","path":"rooms/competition_rm/competition_rm.yy",},},
     {"id":{"name":"homebase_rm","path":"rooms/homebase_rm/homebase_rm.yy",},},
     {"id":{"name":"setup_rm","path":"rooms/setup_rm/setup_rm.yy",},},
+    {"id":{"name":"shop_rm","path":"rooms/shop_rm/shop_rm.yy",},},
     {"id":{"name":"spdminigame_rm","path":"rooms/spdminigame_rm/spdminigame_rm.yy",},},
     {"id":{"name":"tbc_rm","path":"rooms/tbc_rm/tbc_rm.yy",},},
     {"id":{"name":"test_rm","path":"rooms/test_rm/test_rm.yy",},},
@@ -76,6 +78,7 @@
     {"roomId":{"name":"spdminigame_rm","path":"rooms/spdminigame_rm/spdminigame_rm.yy",},},
     {"roomId":{"name":"competition_rm","path":"rooms/competition_rm/competition_rm.yy",},},
     {"roomId":{"name":"tbc_rm","path":"rooms/tbc_rm/tbc_rm.yy",},},
+    {"roomId":{"name":"shop_rm","path":"rooms/shop_rm/shop_rm.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

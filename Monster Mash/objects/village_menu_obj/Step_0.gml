@@ -36,7 +36,7 @@ if position < 0 {
 				switch(position) {
 					case 0: menu_depth = 1; break
 					case 1: menu_depth = 2; break
-					case 2: menu_depth = 3; break
+					case 2: menu_depth = 0; room_goto(shop_rm); break
 					case 3: menu_depth = 4; break
 				}
 				break
@@ -59,7 +59,7 @@ if position < 0 {
 				}
 				break
 			
-			//shop menu
+			//go to shop
 			case 3:
 				switch(position) {
 					case 0:
