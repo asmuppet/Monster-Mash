@@ -11,9 +11,6 @@ menu_items[1, 2] = "Speed: " + string(PlayerMonster.spd)
 menu_items[1, 3] = "Stamina: " + string(PlayerMonster.sta)
 menu_items[1, 4] = "Go Back"
 
-//Inventory Menu
-menu_items[2, 0] = "Placeholder"
-menu_items[2, 1] = "Go Back"
 
 //Shop Menu
 menu_items[3, 0] = "Placeholder"

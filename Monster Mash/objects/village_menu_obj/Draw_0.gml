@@ -10,6 +10,12 @@ height = space_edge * 2 + string_height(menu_items[0, 0]) + (menu_length - 1) * 
 //menu background
 draw_sprite_ext(sprite_index, image_index, x, y, width/sprite_width, height/sprite_height, 0, c_white, 1)
 
+if error{
+	draw_sprite_ext(sprite_index, image_index, x, y + height, width/sprite_width, height/sprite_height, 0, c_white, 1)
+	draw_text(x + space_edge, y + height + space_edge + space_text, "You have none!")
+}
+
+
 if GlobalControllerObj.day % 7 != 0 {
 	//menu text
 	for (var i = 0; i < menu_length; i++) {

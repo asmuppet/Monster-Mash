@@ -39,13 +39,56 @@ if position < 0 {
 				//allow transaction
 				else {
 					PlayerControllerObj.player_gold -= 300
+					global.inventory.str_growth_item.quantity += 1
+					success = true
+				}
+				break
+			
+			//buy speed item
+			case 1:
+			
+				//display an error message stating not enough gold
+				if PlayerControllerObj.player_gold < 300 {
+					error = true
+				}
+				//allow transaction
+				else {
+					PlayerControllerObj.player_gold -= 300
+					global.inventory.spd_growth_item.quantity += 1
 					success = true
 				}
 				break
 				
-			case 1:
+			//buy stamina item
 			case 2:
+			
+			//display an error message stating not enough gold
+				if PlayerControllerObj.player_gold < 300 {
+					error = true
+				}
+				//allow transaction
+				else {
+					PlayerControllerObj.player_gold -= 300
+					global.inventory.sta_growth_item.quantity += 1
+					success = true
+				}
+				break
+				
+			//buy energy potion
 			case 3:
+			
+			//display an error message stating not enough gold
+				if PlayerControllerObj.player_gold < 300 {
+					error = true
+				}
+				//allow transaction
+				else {
+					PlayerControllerObj.player_gold -= 300
+					global.inventory.energy_potion.quantity += 1
+					success = true
+				}
+				break
+			
 			case 4: room_goto(homebase_rm); break
 		}
 	}
