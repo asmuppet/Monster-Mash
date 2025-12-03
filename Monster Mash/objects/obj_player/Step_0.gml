@@ -20,11 +20,12 @@ if (is_sliding) {
     slide -= 1;
 
     // Your slide movement code
-    image_yscale = .05
+    image_yscale = .5
 
     if (slide <= 0) {
         is_sliding = false;
-        image_yscale = .1; // end the slide
+		y -=1
+        image_yscale = 1; // end the slide
     }
 }
 

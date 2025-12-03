@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"ground",
-  "eventList":[],
+  "%Name":"clicker",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"ground",
+  "name":"clicker",
   "overriddenProperties":[],
   "parent":{
     "name":"Monster Objects",
@@ -23,13 +25,15 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"counter","filters":[],"listItems":[],"multiselect":false,"name":"counter","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"ZombieTextSpr",
-    "path":"sprites/ZombieTextSpr/ZombieTextSpr.yy",
+    "name":"SlimeTextSpr",
+    "path":"sprites/SlimeTextSpr/SlimeTextSpr.yy",
   },
   "spriteMaskId":null,
   "visible":true,

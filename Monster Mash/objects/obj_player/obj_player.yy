@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Slime",
-    "path":"sprites/Slime/Slime.yy",
+    "name":"ZombieTextSpr",
+    "path":"sprites/ZombieTextSpr/ZombieTextSpr.yy",
   },
   "spriteMaskId":null,
   "visible":true,
