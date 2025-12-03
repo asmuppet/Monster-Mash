@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Click_Per_SEcond",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Click_Per_SEcond",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

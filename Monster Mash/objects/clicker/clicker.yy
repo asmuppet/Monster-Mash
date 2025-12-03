@@ -2,7 +2,8 @@
   "$GMObject":"",
   "%Name":"clicker",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"clicker",
@@ -32,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SlimeTextSpr",
-    "path":"sprites/SlimeTextSpr/SlimeTextSpr.yy",
+    "name":"SkeletonTextSpr",
+    "path":"sprites/SkeletonTextSpr/SkeletonTextSpr.yy",
   },
   "spriteMaskId":null,
   "visible":true,
