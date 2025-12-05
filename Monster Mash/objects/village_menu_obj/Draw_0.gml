@@ -15,6 +15,10 @@ if error{
 	draw_text(x + space_edge, y + height + space_edge + space_text, "You have none!")
 }
 
+if work{
+	draw_sprite_ext(sprite_index, image_index, x, y + height, room_width/sprite_width, height/sprite_height, 0, c_white, 1)
+	draw_text(x + space_edge, y + height + space_edge + space_text, "Your monster works for the day.")
+}
 
 if GlobalControllerObj.day % 7 != 0 {
 	//menu text

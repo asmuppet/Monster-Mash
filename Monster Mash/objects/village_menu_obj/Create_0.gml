@@ -20,7 +20,8 @@ menu_items[3, 1] = "Go Back"
 menu_items[4, 0] = "Strength Training"
 menu_items[4, 1] = "Speed Training"
 menu_items[4, 2] = "Stamina Training"
-menu_items[4, 3] = "Go Back"
+menu_items[4, 3] = "Earn Some Cash"
+menu_items[4, 4] = "Go Back"
 
 //Competition Day Menu
 menu_items[5, 0] = "Time for the weekly competition!"

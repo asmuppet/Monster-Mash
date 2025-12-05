@@ -15,7 +15,7 @@ enter_pressed = keyboard_check_pressed(vk_enter)
 menu_length = array_length(menu_items[menu_depth])
 
 //track cursor position
-if !error {
+if !error && !work {
 	position += down_pressed - up_pressed
 }
 
@@ -27,7 +27,7 @@ if position < 0 {
 }
 
 
-if enter_pressed && !error {
+if enter_pressed && !error && !work{
 	
 	//set to top on new menu
 	start_depth = menu_depth
@@ -57,21 +57,16 @@ if enter_pressed && !error {
 		case 2:
 			switch(position) {
 				case 0: 
-				
-					//if player has at least one of this item, use it
-					if global.inventory.str_growth_item.quantity > 0 {
-						global.inventory.str_growth_item.quantity--
-						PlayerMonster.str += global.inventory.str_growth_item.instant_increase
-						PlayerMonster.str_mult += global.inventory.str_growth_item.growth_increase
-					}
-				
-					//otherwise, display error
-					else {
-						error = true
-					}
-				
-						break
-				
+					error = !use_growth_item(global.inventory.str_growth_item)
+					break
+				case 1:
+					error = !use_growth_item(global.inventory.spd_growth_item)
+					break
+				case 2:
+					error = !use_growth_item(global.inventory.sta_growth_item)
+					break
+				case 3:
+					if global.inventory.energy_potion.quantity < 1 {error = true}; break
 				case 4: menu_depth = 0; break
 			}
 			break			
@@ -102,6 +97,12 @@ if enter_pressed && !error {
 					menu_depth = 0
 					break
 				case 3:
+					GlobalControllerObj.day++
+					PlayerControllerObj.player_gold += 250
+					work = true
+					menu_depth = 0
+					break;
+				case 4:
 					menu_depth--
 					break
 			}
@@ -124,9 +125,13 @@ else if enter_pressed && error{
 	error = false
 }
 
+else if enter_pressed && work{
+	work = false
+}
+
 //Inventory Menu
-menu_items[2, 0] = "Strength Grower: " + string(global.inventory.str_growth_item.quantity)
-menu_items[2, 1] = "Speed Grower: " + string(global.inventory.spd_growth_item.quantity)
-menu_items[2, 2] = "Stamina Grower: " + string(global.inventory.sta_growth_item.quantity)
+menu_items[2, 0] = "Strength Growth: " + string(global.inventory.str_growth_item.quantity)
+menu_items[2, 1] = "Speed Growth: " + string(global.inventory.spd_growth_item.quantity)
+menu_items[2, 2] = "Stamina Growth: " + string(global.inventory.sta_growth_item.quantity)
 menu_items[2, 3] = "Energy Potion: " + string(global.inventory.energy_potion.quantity)
 menu_items[2, 4] = "Go Back"
