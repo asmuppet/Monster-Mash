@@ -1,0 +1,26 @@
+{
+  "$GMPath":"",
+  "%Name":"village_wander_path",
+  "closed":true,
+  "kind":1,
+  "name":"village_wander_path",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":95.0,"y":129.0,},
+    {"speed":100.0,"x":160.0,"y":128.0,},
+    {"speed":100.0,"x":528.0,"y":129.0,},
+    {"speed":100.0,"x":223.0,"y":168.0,},
+    {"speed":100.0,"x":225.0,"y":433.0,},
+    {"speed":100.0,"x":174.0,"y":192.0,},
+    {"speed":100.0,"x":91.0,"y":128.0,},
+    {"speed":100.0,"x":-209.0,"y":129.0,},
+    {"speed":100.0,"x":-102.0,"y":165.0,},
+    {"speed":100.0,"x":49.0,"y":158.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

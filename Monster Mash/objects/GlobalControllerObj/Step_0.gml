@@ -5,5 +5,3 @@ if global.competitions_won >= 4 {
 else if 8 - global.competitions_total < 4 - global.competitions_won {
 	room_goto(defeat_rm)
 }
-
-show_debug_message(string(room))
