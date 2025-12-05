@@ -9,3 +9,7 @@ var elapsed_time = (current_time - global.start_time) / 1000;
 global.cps = clicks_per_second(global.clicks, elapsed_time);
 
 global.timemarker = elapsed_time
+
+if (clickEnd() == 1){
+	instance_destroy()
+}

@@ -49,6 +49,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Village","path":"rooms/Village/Village.yy",},},
     {"id":{"name":"Click_Per_SEcond","path":"scripts/Click_Per_SEcond/Click_Per_SEcond.yy",},},
+    {"id":{"name":"clickEnd","path":"scripts/clickEnd/clickEnd.yy",},},
     {"id":{"name":"skeleton","path":"sprites/skeleton/skeleton.yy",},},
     {"id":{"name":"SkeletonTextSpr","path":"sprites/SkeletonTextSpr/SkeletonTextSpr.yy",},},
     {"id":{"name":"Slime_boss","path":"sprites/Slime_boss/Slime_boss.yy",},},

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"clickEnd",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"clickEnd",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
