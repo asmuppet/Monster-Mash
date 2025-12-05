@@ -35,6 +35,8 @@ if GlobalControllerObj.day % 7 != 0 {
 
 else {
 	menu_depth = 5
+	position = 0
+	
 	var color = c_blue
 
 	draw_text_colour(x + space_edge, y + space_edge, menu_items[menu_depth, 0], color, color, color, color, 1)	

@@ -7,6 +7,12 @@ if minigame_play && !minigame_started{
 	minigame_started = true
 }
 
+if minigame_started && !minigame_end {
+	time_left -= 1/60
+}
+
+if minigame_end {time_left = 0}
+
 if spd_earned <= 0 {
 	instance_destroy(falling_spd_obj)
 	

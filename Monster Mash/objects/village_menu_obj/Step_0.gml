@@ -6,6 +6,7 @@ menu_items[1, 1] = "Strength: " + string(PlayerMonster.str)
 menu_items[1, 2] = "Speed: " + string(PlayerMonster.spd)
 menu_items[1, 3] = "Stamina: " + string(PlayerMonster.sta)
 
+
 //get input
 up_pressed = keyboard_check_pressed(vk_up)
 down_pressed = keyboard_check_pressed(vk_down)

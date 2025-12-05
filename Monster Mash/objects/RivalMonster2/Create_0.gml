@@ -3,21 +3,21 @@ persistent = true
 monster_species = PlayerControllerObj.rival_monster2
 
 if monster_species == "Zombie" {
-	str_mult = 0.9
-	spd_mult = 0.7
-	sta_mult = 0.7
+	str_mult = 1.1
+	spd_mult = 0.9
+	sta_mult = 0.9
 }
 
 else if monster_species == "Skeleton" {
-	str_mult = 0.7
-	spd_mult = 0.9
-	sta_mult = 0.7
+	str_mult = 0.9
+	spd_mult = 1.1
+	sta_mult = 0.9
 }
 
 else if monster_species == "Slime" {
-	str_mult = 0.7
-	spd_mult = 0.7
-	sta_mult = 0.9
+	str_mult = 0.9
+	spd_mult = 0.9
+	sta_mult = 1.1
 }
 
 day_checked = GlobalControllerObj.day

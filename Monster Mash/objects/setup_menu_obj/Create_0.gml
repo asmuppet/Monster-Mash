@@ -1,8 +1,22 @@
 //Initial Text
-menu_items[0, 0] = "Welcome to Monster Mash!"
+menu_items[0, 0] = "Welcome to Monster Mash! Choose a monster to train to win 4 of the next 8 competitions!"
 
+randomise()
+
+random_val = irandom(2)
+if random_val == 0 {
+	global.competition_type = "Strength"
+}
+
+else if random_val == 1 {
+	global.competition_type = "Speed"
+}
+
+else if random_val == 2 {
+	global.competition_type = "Stamina"
+}
 //Monster to be raised
-menu_items[1, 0] = "What Monster would you like to raise?"
+menu_items[1, 0] = "What Monster would you like to raise? Rumor has it that the first competition is going to be " + global.competition_type + " based..."
 menu_items[1, 1] = "	Zombie (+Strength)"
 menu_items[1, 2] = "	Skeleton (+Speed)"
 menu_items[1, 3] = "	Slime (+Stamina)"

@@ -27,7 +27,7 @@ global.inventory = {
 	
 	energy_potion : {
 		name : "Energy Potion",
-		potency : 50,
+		potency : 20,
 		quantity : 0,
 	}
 		
