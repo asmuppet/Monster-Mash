@@ -1,3 +1,5 @@
+global.min_elapsed_time = (current_time - global.min_start_time)
+
 if (keyboard_check(vk_left) and !instance_place(x-move_speed, y, obj_block)) {
 	x += -move_speed
 }
