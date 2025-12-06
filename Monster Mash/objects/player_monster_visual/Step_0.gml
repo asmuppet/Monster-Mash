@@ -57,6 +57,13 @@ else if room == strminigame_rm {
 	if y > 1000 {vspeed = 0; y = 1000}
 }
 
+if room == competition_rm {
+		if PlayerMonster.monster_species == "Zombie" {sprite_index = zombie_run_spr}
+		else if PlayerMonster.monster_species == "Skeleton" {sprite_index = skeleton_run_spr}
+		else if PlayerMonster.monster_species == "Slime" {sprite_index = slime_run_spr}
+}
+
 if x > room_width - sprite_width/2 || x < sprite_width/2 {
 	x = clamp(x, sprite_width/2, room_width - sprite_width/2)
 }
+

@@ -104,6 +104,7 @@
     {"id":{"name":"falling_spd_spr","path":"sprites/falling_spd_spr/falling_spd_spr.yy",},},
     {"id":{"name":"garden_spr","path":"sprites/garden_spr/garden_spr.yy",},},
     {"id":{"name":"menu_spr","path":"sprites/menu_spr/menu_spr.yy",},},
+    {"id":{"name":"racetrack_spr","path":"sprites/racetrack_spr/racetrack_spr.yy",},},
     {"id":{"name":"shop_spr","path":"sprites/shop_spr/shop_spr.yy",},},
     {"id":{"name":"skeleton_idle_spr","path":"sprites/skeleton_idle_spr/skeleton_idle_spr.yy",},},
     {"id":{"name":"skeleton_jump_spr","path":"sprites/skeleton_jump_spr/skeleton_jump_spr.yy",},},
