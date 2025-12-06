@@ -58,12 +58,15 @@ if enter_pressed && !error && !work{
 		case 2:
 			switch(position) {
 				case 0: 
+					audio_play_sound(item_use_snd, 1, false)
 					error = !use_growth_item(global.inventory.str_growth_item)
 					break
 				case 1:
+					audio_play_sound(item_use_snd, 1, false)
 					error = !use_growth_item(global.inventory.spd_growth_item)
 					break
 				case 2:
+					audio_play_sound(item_use_snd, 1, false)
 					error = !use_growth_item(global.inventory.sta_growth_item)
 					break
 				case 3:

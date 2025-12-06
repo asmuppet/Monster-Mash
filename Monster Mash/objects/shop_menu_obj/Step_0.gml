@@ -26,62 +26,62 @@ if enter_pressed && !error && !success{
 	//set to top on new menu
 	start_depth = menu_depth
 	
-	switch (position) {
-			
+	switch (position) {	
 		//buy strength item
 		case 0:
-			
 			//display an error message stating not enough gold
 			if PlayerControllerObj.player_gold < 300 {
+				audio_play_sound(item_buy_error_snd, 1, false)
 				error = true
 			}
 			//allow transaction
 			else {
+				audio_play_sound(item_purchased_snd, 1, false)
 				PlayerControllerObj.player_gold -= 300
 				global.inventory.str_growth_item.quantity += 1
 				success = true
 			}
 			break
-			
 		//buy speed item
 		case 1:
-			
 			//display an error message stating not enough gold
 			if PlayerControllerObj.player_gold < 300 {
+				audio_play_sound(item_buy_error_snd, 1, false)
 				error = true
 			}
 			//allow transaction
 			else {
+				audio_play_sound(item_purchased_snd, 1, false)
 				PlayerControllerObj.player_gold -= 300
 				global.inventory.spd_growth_item.quantity += 1
 				success = true
 			}
 			break
-				
 		//buy stamina item
 		case 2:
-			
 		//display an error message stating not enough gold
 			if PlayerControllerObj.player_gold < 300 {
+				audio_play_sound(item_buy_error_snd, 1, false)
 				error = true
 			}
 			//allow transaction
 			else {
+				audio_play_sound(item_purchased_snd, 1, false)
 				PlayerControllerObj.player_gold -= 300
 				global.inventory.sta_growth_item.quantity += 1
 				success = true
 			}
 			break
-				
 		//buy energy potion
 		case 3:
-			
 		//display an error message stating not enough gold
 			if PlayerControllerObj.player_gold < 150 {
+				audio_play_sound(item_buy_error_snd, 1, false)
 				error = true
 			}
 			//allow transaction
 			else {
+				audio_play_sound(item_purchased_snd, 1, false)
 				PlayerControllerObj.player_gold -= 150
 				global.inventory.energy_potion.quantity += 1
 				success = true

@@ -1,3 +1,5 @@
+audio_stop_all()
+
 global.competitions_total++
 
 
@@ -27,12 +29,14 @@ skill_check = max(RivalMonster1.str * random_range(1, 1.2) * str_advantage,Rival
 			  max(RivalMonster1.sta * random_range(1, 1.2) * sta_advantage,RivalMonster2.sta * random_range(1, 1.2) * sta_advantage);
 			  
 if PlayerMonster.str  * random_range(1.1, 1.3) * str_advantage + PlayerMonster.spd *  random_range(1.1, 1.3) * spd_advantage + PlayerMonster.sta *  random_range(1.1, 1.3) * sta_advantage >= skill_check {
+	audio_play_sound(win_snd, 1, false)
 	player_win = true
 	global.competitions_won++
 	PlayerControllerObj.player_gold += 600
 }
 
 else {
+	audio_play_sound(defeat_snd, 0, false)
 	player_win = false
 	global.competitions_lost++
 }

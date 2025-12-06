@@ -1,0 +1,1 @@
+PlayerMonster.sta += 1

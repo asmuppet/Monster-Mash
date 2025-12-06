@@ -1,0 +1,1 @@
+PlayerMonster.spd += 1

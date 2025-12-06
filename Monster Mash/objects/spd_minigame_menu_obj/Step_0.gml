@@ -31,6 +31,7 @@ if enter_pressed && !choice_made && global.inventory.energy_potion.quantity > 0{
 		case 0:
 			break;
 		case 1:
+			audio_play_sound(item_use_snd, 1, false)
 			//consume energy potion
 			global.inventory.energy_potion.quantity--
 			potion_mult = 1.2

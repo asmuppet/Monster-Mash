@@ -1,0 +1,1 @@
+PlayerControllerObj.player_gold += 300

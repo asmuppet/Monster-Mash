@@ -1,0 +1,1 @@
+PlayerMonster.str += 1

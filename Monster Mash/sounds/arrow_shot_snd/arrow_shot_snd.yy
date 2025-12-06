@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"arrow_shot_snd",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.54043084,
+  "exportDir":"",
+  "name":"arrow_shot_snd",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"arrow_shot_snd.wav",
+  "volume":0.45,
+}

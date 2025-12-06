@@ -1,3 +1,4 @@
+audio_stop_all()
 //base village menu
 menu_items[0, 0] = "Check Monster"
 menu_items[0, 1] = "Inventory"
@@ -25,3 +26,5 @@ menu_items[4, 4] = "Go Back"
 
 //Competition Day Menu
 menu_items[5, 0] = "Time for the weekly competition!"
+
+audio_play_sound(town_music_snd, 0, true)

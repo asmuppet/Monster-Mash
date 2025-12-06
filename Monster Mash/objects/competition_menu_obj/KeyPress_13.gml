@@ -1,3 +1,3 @@
-
+audio_play_sound(menu_progress_snd, 1, false)
 
 move_on = true
