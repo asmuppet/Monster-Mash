@@ -34,4 +34,13 @@ if PlayerMonster.str  * random_range(1.1, 1.3) * str_advantage + PlayerMonster.s
 
 else {
 	player_win = false
+	global.competitions_lost++
+}
+
+if global.competitions_won >= 4 {
+	victory = true
+}
+
+else if global.competitions_lost >= 4 {
+	defeat = true
 }

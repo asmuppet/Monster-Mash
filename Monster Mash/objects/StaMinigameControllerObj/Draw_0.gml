@@ -1,0 +1,1 @@
+draw_text(0, 16, "Arrows jumped: " + string(sta_earned*10))

@@ -1,0 +1,1 @@
+hspeed = 16 * random_range(.8, 2)

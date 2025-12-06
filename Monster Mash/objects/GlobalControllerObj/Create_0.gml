@@ -18,5 +18,6 @@ enum GameState {
 
 global.game_state = GameState.game_start
 
-global.competitions_won = 1
+global.competitions_won = 0
 global.competitions_total = 0
+global.competitions_lost = 0

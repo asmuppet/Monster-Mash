@@ -5,5 +5,7 @@ menu_items[0] = "Week: " + string(GlobalControllerObj.week)
 menu_items[1] = "Day: " + string(GlobalControllerObj.day)
 menu_items[2] = "Gold: " + string(PlayerControllerObj.player_gold)
 menu_items[3] = "Raising: " + string(PlayerMonster.monster_species)
+menu_items[4] = "Competitions Won: " + string(global.competitions_won)
+menu_items[5] = "Competitions Lost: " + string(global.competitions_lost)
 
 menu_length = array_length(menu_items)

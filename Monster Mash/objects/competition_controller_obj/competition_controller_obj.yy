@@ -29,6 +29,8 @@
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"competition_type","filters":[],"listItems":[],"multiselect":false,"name":"competition_type","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"skill_check","filters":[],"listItems":[],"multiselect":false,"name":"skill_check","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"victory","filters":[],"listItems":[],"multiselect":false,"name":"victory","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"defeat","filters":[],"listItems":[],"multiselect":false,"name":"defeat","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

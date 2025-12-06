@@ -93,9 +93,9 @@ if enter_pressed && !error && !work{
 					room_goto(spdminigame_rm)
 					break
 				case 2: 
-					PlayerMonster.sta += PlayerMonster.sta_mult
 					GlobalControllerObj.day++
 					menu_depth = 0
+					room_goto(staminigame_rm)
 					break
 				case 3:
 					GlobalControllerObj.day++
@@ -104,7 +104,7 @@ if enter_pressed && !error && !work{
 					menu_depth = 0
 					break;
 				case 4:
-					menu_depth--
+					menu_depth = 0
 					break
 			}
 			break

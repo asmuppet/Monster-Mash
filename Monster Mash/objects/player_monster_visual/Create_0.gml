@@ -15,3 +15,8 @@ else if PlayerMonster.monster_species == "Slime" {
 
 image_xscale = .2
 image_yscale = .2
+
+
+if room == staminigame_rm {
+	gravity_direction = 270
+}
