@@ -44,4 +44,4 @@ if enter_pressed && !choice_made && global.inventory.energy_potion.quantity > 0{
 
 
 
-minimessage[2] = "Congratulations! Your monster trained hard and earned " + string(PlayerMonster.spd_mult * SpdMinigameControllerObj.spd_earned) + " speed!"
+minimessage[2] = "Congratulations! Your monster trained hard and earned " + string(PlayerMonster.spd_mult * SpdMinigameControllerObj.spd_earned * potion_mult) + " speed!"

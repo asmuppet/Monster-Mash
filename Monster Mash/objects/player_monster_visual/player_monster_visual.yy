@@ -30,6 +30,8 @@
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"turn_left","filters":[],"listItems":[],"multiselect":false,"name":"turn_left","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v2","%Name":"fall_speed","filters":[],"listItems":[],"multiselect":false,"name":"fall_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"charging_jump","filters":[],"listItems":[],"multiselect":false,"name":"charging_jump","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"jumped","filters":[],"listItems":[],"multiselect":false,"name":"jumped","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

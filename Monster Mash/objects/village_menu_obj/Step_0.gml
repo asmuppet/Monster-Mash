@@ -83,9 +83,9 @@ if enter_pressed && !error && !work{
 		case 4:
 			switch(position) {
 				case 0: 
-					PlayerMonster.str += PlayerMonster.str_mult
 					GlobalControllerObj.day++
 					menu_depth = 0
+					room_goto(strminigame_rm)
 					break
 				case 1:
 					GlobalControllerObj.day++

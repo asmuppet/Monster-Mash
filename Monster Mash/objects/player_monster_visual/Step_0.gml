@@ -35,6 +35,28 @@ if room == spdminigame_rm || room == staminigame_rm {
 	}
 }
 
+else if room == strminigame_rm {
+	if PlayerMonster.monster_species == "Zombie" && charging_jump {sprite_index = zombie_jump_spr}
+	else if PlayerMonster.monster_species == "Skeleton" && charging_jump {sprite_index = skeleton_jump_spr}
+	else if PlayerMonster.monster_species == "Slime" && charging_jump {sprite_index = slime_jump_spr}
+	
+	if charging_jump && image_index == 3 {image_index = 0}
+	if !charging_jump && PlayerMonster.monster_species == "Zombie" {sprite_index = zombie_idle_spr}
+	else if !charging_jump && PlayerMonster.monster_species == "Skeleton" {sprite_index = skeleton_idle_spr}
+	else if !charging_jump && PlayerMonster.monster_species == "Slime" {sprite_index = slime_idle_spr}
+	
+	if !charging_jump && StrMinigameControllerObj.minigame_end && !jumped {
+		vspeed = -96
+		jumped = true
+	}
+	
+	if y < 1000 {
+		vspeed += fall_speed
+		if vspeed > 16 {vspeed = 16}
+	}
+	if y > 1000 {vspeed = 0; y = 1000}
+}
+
 if x > room_width - sprite_width/2 || x < sprite_width/2 {
 	x = clamp(x, sprite_width/2, room_width - sprite_width/2)
 }
