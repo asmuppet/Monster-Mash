@@ -1,3 +1,5 @@
+audio_stop_all()
+
 if room == victory_rm {
 	audio_play_sound(final_victory_snd, 0, true)
 }
